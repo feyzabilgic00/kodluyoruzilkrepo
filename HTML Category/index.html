@@ -13,6 +13,9 @@
       font-family: "Open Sans";
       background-color: white;
     }
+    .buton {
+      font-size: small;
+    }
 
     .text {
       text-align: center;
@@ -21,34 +24,38 @@
     .image {
       text-align: center;
     }
-
-    .info {
-      background-color: #17a2b8;
+    a {
+      font-size:x-small;
     }
-
-    .success {
-      background-color: #28a745;
+    span {
+      font-size: x-small;
+    }
+    .Search {
+      font-size: medium;
     }
   </style>
 </head>
 
 <body>
   <div class="container-fluid mt-5">
+      <!-- Google Logosu -->
     <div class="row">
       <img class="mx-auto d-block img-fluid"
         src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="google" height="92">
     </div>
+    <!-- Arama Alanı -->
     <div class="text-body bg-light text-dark">
-      <p class="text"><span>Search the web using Google!</span></p>
+      <p class="text"><span class="Search">Search the web using Google!</span></p>
       <div class="col ml-8 mr-8">
         <input class="form-control" type="text" placeholder="">
       </div>
       <div class="row d-flex justify-content-center">
-        <button type="button" class="btn btn-outline-dark mr-2"><span style="font-size: small;">Google Search</span></button>
-        <button type="button" class="btn btn-outline-dark"><span style="font-size: small;">I'm feeling luckly</span></button>
+        <button type="button" class="btn btn-outline-dark mr-2"><span class="buton">Google Search</span></button>
+        <button type="button" class="btn btn-outline-dark"><span class="buton">I'm feeling luckly</span></button>
       </div>
     </div>
-    <div class="container-fluid" style="font-size:x-small;">
+    <!-- Link Alanları -->
+    <div class="container-fluid">
       <div class="row">
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background: #7be6c6e1;">
           <div class="d-flex flex-column justify-context-center mt-3 ml-4">
@@ -85,8 +92,10 @@
         </div>
       </div>
     </div>
-    <p class="text-center" style="font-size: xx-small;">Copyright ©1998 Google Inc</p>
+    <!-- Footer Alanı -->
+    <div class="footer">
+        <p class="text-center" style="font-size: xx-small;">Copyright ©1998 Google Inc</p>
+    </div>    
   </div>
 </body>
-
 </html>
