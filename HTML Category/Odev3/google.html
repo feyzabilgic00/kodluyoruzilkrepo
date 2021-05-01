@@ -13,6 +13,7 @@
       font-family: "Open Sans";
       background-color: white;
     }
+
     .buton {
       font-size: small;
     }
@@ -24,78 +25,114 @@
     .image {
       text-align: center;
     }
+
     a {
-      font-size:x-small;
+      font-size: x-small;
     }
+
     span {
       font-size: x-small;
     }
+
     .Search {
       font-size: medium;
+    }
+
+    .box {
+      padding: 10px;
+      margin-right: 1px;
+      float: left;
+    }
+
+    .bg-box1 {
+      background-color: #7be6c6e1;
+      width: 300px;
+      height: 150px;
+    }
+
+    .bg-box2 {
+      background-color: #87c9b5;
+      width: 200px;
+      height: 150px;
+    }
+
+    .bg-box3 {
+      background-color: #62c9aa;
+      width: 300px;
+      height: 150px;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    .container {
+      width: 840px;
+      margin: 0 auto 0 auto;
     }
   </style>
 </head>
 
 <body>
-  <div class="container-fluid mt-5">
-      <!-- Google Logosu -->
+  <div class="container mt-5">
+    <!-- Google Logosu -->
     <div class="row">
       <img class="mx-auto d-block img-fluid"
         src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="google" height="92">
     </div>
     <!-- Arama Alanı -->
-    <div class="text-body bg-light text-dark">
-      <p class="text"><span class="Search">Search the web using Google!</span></p>
-      <div class="col ml-8 mr-8">
-        <input class="form-control" type="text" placeholder="">
-      </div>
-      <div class="row d-flex justify-content-center">
-        <button type="button" class="btn btn-outline-dark mr-2"><span class="buton">Google Search</span></button>
-        <button type="button" class="btn btn-outline-dark"><span class="buton">I'm feeling luckly</span></button>
+    <div class="container">
+      <div class="text-body bg-light text-dark">
+        <p class="text"><span class="Search">Search the web using Google!</span></p>
+        <div class="col ml-8 mr-8">
+          <input class="form-control" type="text" placeholder="">
+        </div>
+        <div class="row d-flex justify-content-center">
+          <button type="button" class="btn btn-outline-dark mr-2"><span class="buton">Google Search</span></button>
+          <button type="button" class="btn btn-outline-dark"><span class="buton">I'm feeling luckly</span></button>
+        </div>
       </div>
     </div>
     <!-- Link Alanları -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background: #7be6c6e1;">
-          <div class="d-flex flex-column justify-context-center mt-3 ml-4">
-            <span>Special Searches</span>
-            <span><a href="#">Stanford Search</a></span>
-            <span><a href="#">Linux Search</a></span>
-          </div>
+    <div class="container">
+      <div class="box bg-box1 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div class="d-flex flex-column justify-context-center mt-3 ml-4">
+          <span>Special Searches</span>
+          <span><a href="#">Stanford Search</a></span>
+          <span><a href="#">Linux Search</a></span>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background: #87c9b5;">
-          <div class="d-flex flex-column justify-context-center mt-3 mx-3">
-            <span><a href="#">Help!</a></span>
-            <span><a href="#">About Google!</a></span>
-            <span><a href="#">Company Info</a></span>
-            <span><a href="#">Google! Logos</a></span>
-          </div>
+      </div>
+      <div class="box bg-box2 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div class="d-flex flex-column justify-context-center mt-3 mx-3">
+          <span><a href="#">Help!</a></span>
+          <span><a href="#">About Google!</a></span>
+          <span><a href="#">Company Info</a></span>
+          <span><a href="#">Google! Logos</a></span>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background: #62c9aa;">
-          <div class="d-flex flex-column justify-context-center mt-3 mx-5">
-            <span>Get Google!</span>
-            <span>updates monthly!</span>
-            <div class="" style="width: 100%;">
-              <input class="form-control" id="ex3" type="text" placeholder="your-email" style="font-size: xx-small;">
+      </div>
+      <div class="box bg-box3 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div class="d-flex flex-column justify-context-center mt-3 mx-5">
+          <span>Get Google!</span>
+          <span>updates monthly!</span>
+          <div class="" style="width: 100%;">
+            <input class="form-control" id="ex3" type="text" placeholder="your-email" style="font-size: xx-small;">
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <button type="button" class="btn btn-light btn-sm ml-3 mb-1"><span
+                  style="font-size:xx-small;">Subscribe</span></button>
             </div>
-            <div class="row">
-              <div class="col-6">
-                <button type="button" class="btn btn-light btn-sm ml-3 mb-1"><span
-                    style="font-size:xx-small;">Subscribe</span></button>
-              </div>
-              <div class="col-5 ml-2 my-2 d-flex align-items-end">
-                <a href="#"><span style="font-size: xx-small;">Archive</span></a>
-              </div>
+            <div class="col-5 ml-2 my-2 d-flex align-items-end">
+              <a href="#"><span style="font-size: xx-small;">Archive</span></a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Footer Alanı -->
-    <div class="footer">
-        <p class="text-center" style="font-size: xx-small;">Copyright ©1998 Google Inc</p>
-    </div>    
+    <div class="footer clear">
+      <p class="text-center" style="font-size: xx-small;">Copyright ©1998 Google Inc</p>
+    </div>
   </div>
 </body>
 </html>
