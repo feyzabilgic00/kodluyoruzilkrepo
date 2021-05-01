@@ -1,0 +1,57 @@
+body {
+  background-color: #fcecdd;
+}
+.metin {
+  width: 300px;
+  margin-left: 625px;
+  text-align: justify;
+}
+.header {
+  text-align: center;
+  color: #ff5200;
+}
+h3 {
+  color: #ff6701;
+}
+.row {
+  text-align: center;
+  margin-left: 625px;
+}
+.row2 {
+    text-align: center;
+    margin-left: 425px;
+  }
+.menu {
+  padding-left: 10px;
+  margin-right: 3px;
+  float: left;
+}
+.menu-anasayfa {
+  width: 75px;
+}
+.menu-diziler {
+  width: 75px;
+}
+.menu-hakkımda {
+  width: 75px;
+}
+.clear {
+  clear: both;
+}
+.center {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  padding: 5px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: outside;
+}
+.article {
+  text-align: center;
+}
+.image {
+    margin-left: 35px;
+}
